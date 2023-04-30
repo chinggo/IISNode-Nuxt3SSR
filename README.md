@@ -21,7 +21,7 @@ pnpm install
 3. URL Rewrite
 
 ## Publish to the IISNode
-1. package the Nuxt3 Project
+1. Package the Nuxt3 Project
 2. Config IIS and Application Pool
 3. Copy the web.config、server.js to the root folder
 
