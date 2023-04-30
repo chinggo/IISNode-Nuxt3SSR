@@ -34,6 +34,6 @@ docker build -t nuxt-app .
 docker run -d -p 3000:3000 nuxt-app
 ```
 
-check the http://localhost:3000
+Check the http://localhost:3000
 
 Check out the [documentation](https://hackmd.io/V3VSjUpLS2yE6EwVYCJR8g?both) for more information.
