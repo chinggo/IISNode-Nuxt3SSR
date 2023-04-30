@@ -26,11 +26,14 @@ pnpm install
 3. Copy the web.config、server.js to the root folder
 
 ## Docker command
-
-# build
+```
+# build 
 docker build -t nuxt-app .
 
 # run
 docker run -d -p 3000:3000 nuxt-app
+```
+
+check the http://localhost:3000
 
 Check out the [documentation](https://hackmd.io/V3VSjUpLS2yE6EwVYCJR8g?both) for more information.
