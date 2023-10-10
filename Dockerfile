@@ -25,3 +25,8 @@ ENV NUXT_PORT=3000
 EXPOSE 3000 
 
 ENTRYPOINT ["pm2-runtime", "start", "/nuxt-app/ecosystem.config.js"]
+
+# Build Image
+# docker build -t nuxt-app .
+# Run Image
+# docker run -d -p 3000:3000 nuxt-app
