@@ -1,8 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Note Nuxt3 Publish to IISNode Process
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
+## Nuxt3 Setup
 
 Make sure to install the dependencies:
 
@@ -17,26 +15,25 @@ npm install
 pnpm install
 ```
 
-## Development Server
+## Check the IISNode dependencies was install
+1. Nodejs
+2. IISNode Module
+3. URL Rewrite
 
-Start the development server on `http://localhost:3000`
+## Publish to the IISNode
+1. Package the Nuxt3 Project
+2. Config IIS and Application Pool
+3. Copy the web.config、server.js to the root folder
 
-```bash
-npm run dev
+## Docker command
+```
+# build 
+docker build -t nuxt-app .
+
+# run
+docker run -d -p 3000:3000 nuxt-app
 ```
 
-## Production
+Check the http://localhost:3000
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [documentation](https://hackmd.io/V3VSjUpLS2yE6EwVYCJR8g?both) for more information.
